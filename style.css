@@ -12,12 +12,14 @@
 .container {
   display: flex;
   height: 100vh;
+  background-color: wheat;
 }
 .column {
   flex: 1; /*grow*/
   border: 1px solid white;
   height: 100%;
   text-align: center;
+  background-color: wheat;
 }
 @media (max-width: 768px) {
   /*breakpoint*/
