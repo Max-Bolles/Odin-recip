@@ -1,3 +1,30 @@
-ol li {
-  padding: 20px;
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap");
+* {
+  font-family: "M PLUS 1", sans-serif;
+}
+
+/* h2 {
+  flex: auto;
+  display: block;
+  justify-content: center;
+  justify-self: center;
+} */
+.container {
+  display: flex;
+  height: 100vh;
+}
+.column {
+  flex: 1; /*grow*/
+  border: 1px solid white;
+  height: 100%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  /*breakpoint*/
+  .container {
+    flex-direction: column;
+  }
+}
+li {
+  text-decoration: none;
 }
